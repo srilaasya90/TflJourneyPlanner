@@ -23,7 +23,7 @@ namespace TflJourneyPlanner.PageObjects
         }
 
       
-        // Method to wait for the username field to be visible
+       
         public void WaitForElementToBeVisible(IWebElement element, TimeSpan timeout)
         {
             _wait.Until(d =>
